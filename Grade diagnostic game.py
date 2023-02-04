@@ -19,19 +19,19 @@ def click_btn():
             pts += 1
     nekodo = int(100 * pts / 7)
     text.delete("1.0", tkinter.END)
-    text.insert("1.0", f"<진단결과>\n\n당신이 A+을 맞을 확률은 {nekodo}%입니다\n {RESULT[pts]}")
+    text.insert("1.0", f"<계산 결과>\n\n당신이 A+을 맞을 확률은 {nekodo}%입니다\n {RESULT[pts]}")
 
     
 if __name__ == "__main__":
     root = tkinter.Tk()
-    root.title("A+ 확률 진단 게임")
+    root.title("A+ 확률 계산 게임")
     root.resizable(False, False)
     canvas = tkinter.Canvas(root, width=800, height=600)
     canvas.pack()
     img = resource_path("made.png")
     gazou = tkinter.PhotoImage(file=img)
     canvas.create_image(400, 300, image=gazou)
-    button = tkinter.Button(text="진단하기", font=("Times New Roman", 32),
+    button = tkinter.Button(text="결과 출력", font=("Times New Roman", 32),
                                 bg="grey", command=click_btn)
     button.place(x=400, y=480)
     text = tkinter.Text(width=40, height=5, font=("Times New Roman", 16))
