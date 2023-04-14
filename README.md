@@ -1,10 +1,9 @@
-# 👩‍💻Python Project_Grade diagnostic game👩‍💻
+# 👩‍💻Python Project_Grade diagnostic game_GYA👩‍💻
 
 
-<br><h2>☝️About our Program</h2>
-: 학습 태도를 기반으로 본인의 학점을 예측할 수 있는 미니 게임형 프로그램<br>
-: Mini game-based program that predicts one's grades based on their learning attitude
-
+<br><h2>☝️About our Program_GYA</h2>
+: GYA(Get Your A+)는 학습 태도를 기반으로 본인의 학점을 예측할 수 있는 미니 게임형 프로그램.<br>
+: GYA (Get Your A+) is a mini game-based program that predicts one's grades based on their learning attitude.
 
 <br><h2>✌️Used Stacks</h2>
 : Python & Idle
